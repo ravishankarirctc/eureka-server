@@ -1,0 +1,8 @@
+server:
+  port: 1212
+  
+#This is Eureka Server, do not register with itself
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
